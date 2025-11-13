@@ -1,0 +1,43 @@
+name: first-principles
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.9
+
+  # Core scientific computing
+  - numpy>=1.20
+  - scipy>=1.7
+  - matplotlib>=3.5
+  - pandas>=1.3
+
+  # Jupyter
+  - jupyter
+  - jupyterlab
+  - ipython
+  - notebook
+
+  # Atomic simulation
+  - ase>=3.22
+  - spglib
+  - pymatgen
+
+  # Visualization
+  - plotly
+  - seaborn
+
+  # Development tools
+  - pytest
+  - black
+  - flake8
+
+  # Utilities
+  - tqdm
+  - pyyaml
+
+  # Pip packages
+  - pip
+  - pip:
+    # DFT codes (if available via pip)
+    - gpaw>=22.8.0
