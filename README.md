@@ -74,6 +74,69 @@ This course systematically introduces the fundamental theories and practical app
 
 📂 [教程](./Part1-Basics/02-Practice/05-GPAW-Calculations/) | 💻 [示例](./Part1-Basics/02-Practice/05-GPAW-Calculations/examples/)
 
+---
+
+### 第二部分：深度学习在第一性原理计算中的应用——神经网络势函数（一）
+### Part 2: Applications of Deep Learning in First-Principles - Neural Network Potentials (I)
+
+#### 1. 课程内容 | Course Content
+
+##### (1) 深度学习基本理论
+- 人工神经网络与万能近似定理
+- 神经元的基本结构与功能
+- 常见的激活函数及其特点
+- 前向传播与反向传播的基本原理
+
+📖 [查看详细内容](./Part2-Deep-Learning-and-NNP/01-Theory/01-Deep-Learning-Basics.md)
+
+##### (2) 深度学习的发展历程和优势
+- 神经网络的发展历程：从全连接到深度学习大模型
+- 神经网络的常见分类：FNN、CNN、RNN和GNN
+- 深度神经网络入门——以ResNet残差神经网络为例
+- 常用的深度学习库——PyTorch介绍
+
+📖 [查看详细内容](./Part2-Deep-Learning-and-NNP/01-Theory/02-Deep-Learning-Development.md)
+
+##### (3) 神经网络势函数
+- 从高斯核回归到神经网络势函数
+- 神经网络势函数的基本假设——局域性假设和对称性要求
+- 原子结构和周围化学环境的表征
+- BPNN描述符和DP深度神经网络势函数
+
+📖 [查看详细内容](./Part2-Deep-Learning-and-NNP/01-Theory/03-Neural-Network-Potentials.md)
+
+##### (4) 晶体材料简介及其电子结构特点
+- 晶体的基本概念：布拉维格子、空间群和对称性
+- 晶体材料的电子结构和态密度分析
+
+📖 [查看详细内容](./Part2-Deep-Learning-and-NNP/01-Theory/04-Crystal-Materials.md)
+
+#### 2. 上机实验 | Practical Experiments
+
+##### (1) 第一性原理计算软件进阶
+- VASP/GPAW计算BaTiO₃的电子能带结构和态密度、电荷密度等性质
+- 第一性原理数据集的构造——AIMD从头算分子动力学
+- 使用t-SNE技术进行数据集的可视化
+
+📂 [教程和示例](./Part2-Deep-Learning-and-NNP/02-Practice/01-DFT-Advanced/)
+
+##### (2) PyTorch深度学习库
+- PyTorch的安装和调用GPU训练模型
+- PyTorch的基本功能与模块化设计
+- 使用PyTorch搭建简单的神经网络模型
+- 神经网络的训练流程
+
+📂 [教程和示例](./Part2-Deep-Learning-and-NNP/02-Practice/02-PyTorch-Basics/)
+
+##### (3) 深度学习项目实践——ResNet残差网络用于手写数字识别
+- 手写数据集的准备
+- ResNet模型的训练、测试和评估
+- 深度学习模型训练的超参数设置和调参
+
+📂 [完整项目](./Part2-Deep-Learning-and-NNP/02-Practice/03-ResNet-MNIST/)
+
+---
+
 ## 环境要求 | Environment Requirements
 
 ### 基础环境 | Basic Environment
