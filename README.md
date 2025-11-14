@@ -74,6 +74,28 @@ This course systematically introduces the fundamental theories and practical app
 
 📂 [教程](./Part1-Basics/02-Practice/05-GPAW-Calculations/) | 💻 [示例](./Part1-Basics/02-Practice/05-GPAW-Calculations/examples/)
 
+### 第二部分：前沿研究论文复现
+### Part 2: Cutting-Edge Research Paper Reproduction
+
+#### Allegro Nature论文复现 | Allegro Nature Paper Reproduction
+
+复现Nature Communications 2023年发表的Allegro论文成果，该论文提出了一种高精度、高效率的深度学习原子间势能模型。
+
+Reproduce the results from the Allegro paper published in Nature Communications (2023), which introduces a highly accurate and efficient deep learning interatomic potential.
+
+**论文信息 | Paper Information:**
+- **标题 | Title:** Learning local equivariant representations for large-scale atomistic dynamics
+- **作者 | Authors:** Albert Musaelian, Simon Batzner, Anders Johansson, et al.
+- **期刊 | Journal:** Nature Communications 14, 579 (2023)
+- **链接 | Link:** [https://www.nature.com/articles/s41467-023-36329-y](https://www.nature.com/articles/s41467-023-36329-y)
+
+**复现目标 | Reproduction Targets:**
+- QM9数据集基准测试 (4-5 meV MAE) | QM9 benchmark (4-5 meV MAE)
+- revMD17数据集基准测试 (能量: 3.84 meV, 力: 12.98 meV/Å) | revMD17 benchmark (Energy: 3.84 meV, Force: 12.98 meV/Å)
+- 大规模分子动力学模拟演示 | Large-scale MD simulation demonstrations
+
+📂 [完整文档](./Part2-Allegro-Reproduction/) | 🔬 [复现指南](./Part2-Allegro-Reproduction/docs/reproduction-guide.md) | 📊 [论文总结](./Part2-Allegro-Reproduction/docs/paper-summary.md)
+
 ## 环境要求 | Environment Requirements
 
 ### 基础环境 | Basic Environment
