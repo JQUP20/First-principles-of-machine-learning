@@ -124,6 +124,39 @@ Implement Transformer model from scratch and apply it to sequence modeling and p
 - 📊 注意力权重可解释性强
 - 🚀 易于扩展到大规模模型
 
+#### MACE实战教程 | MACE Practical Guide
+
+深入学习MACE (Multi Atomic Cluster Expansion) 等变神经网络势函数模型，掌握预训练模型微调和分子动力学模拟。
+
+Learn MACE (Multi Atomic Cluster Expansion) equivariant neural network potential, master pre-trained model fine-tuning and molecular dynamics simulations.
+
+📂 [完整教程](./Part1-Basics/03-Machine-Learning/02-MACE-Practical/) | 📖 [超参数指南](./Part1-Basics/03-Machine-Learning/02-MACE-Practical/tutorials/02_hyperparameters_guide.md) | 💻 [实战案例](./Part1-Basics/03-Machine-Learning/02-MACE-Practical/examples/)
+
+**核心内容 | Core Content:**
+- 🔧 **超参数详解**: 完整的超参数说明和调优策略
+- 🎯 **MACE-MP-0预训练模型**: 加载、使用和微调Materials Project预训练模型
+- 🧪 **分子动力学模拟**: 使用MACE进行高精度MD模拟
+- 📊 **性能对比**: 与DFT和传统力场的对比评估
+
+**实战案例 | Practical Examples:**
+- MACE-MP-0模型加载和单点计算
+- 在自定义数据上微调预训练模型
+- ASE集成的分子动力学模拟
+- 超参数优化与模型评估
+
+**MACE特点 | MACE Features:**
+- ✅ E(3)等变性 - 旋转平移不变
+- 🎯 ACE理论基础 - 原子簇展开
+- 🚀 预训练模型 - MACE-MP-0覆盖89种元素
+- ⚡ 高效计算 - 10K-50K atoms/s推理速度
+- 📈 优异精度 - 能量MAE 5-10 meV/atom
+
+**应用领域 | Applications:**
+- 材料性质预测（晶体结构、弹性常数）
+- 高温高压分子动力学模拟
+- 表面科学和催化反应
+- 纳米材料和二维材料研究
+
 ### 第二部分：前沿研究论文复现
 ### Part 2: Cutting-Edge Research Paper Reproduction
 
