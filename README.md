@@ -92,6 +92,38 @@ This course systematically introduces the fundamental theories and practical app
 - 了解如何使用ML势函数加速材料计算
 - 学会评估和比较不同计算方法
 
+### 第一部分扩展：机器学习基础
+### Part 1 Extension: Machine Learning Fundamentals
+
+#### Transformer模型与实战 | Transformer Models and Applications
+
+从零开始实现Transformer模型，并应用于序列数据建模和预测。Transformer是现代深度学习的基石，广泛应用于NLP、计算机视觉、时间序列预测等领域。
+
+Implement Transformer model from scratch and apply it to sequence modeling and prediction tasks. Transformer is the foundation of modern deep learning, widely used in NLP, computer vision, time series forecasting, and more.
+
+📂 [完整教程](./Part1-Basics/03-Machine-Learning/01-Transformer-Basics/) | 💻 [源代码](./Part1-Basics/03-Machine-Learning/01-Transformer-Basics/src/) | 🎯 [实战案例](./Part1-Basics/03-Machine-Learning/01-Transformer-Basics/examples/)
+
+**核心内容 | Core Content:**
+- 🧠 **理论基础**: 注意力机制、多头注意力、位置编码
+- 💻 **PyTorch实现**: 从零实现所有核心组件
+- 🎯 **实战案例**:
+  - 时间序列预测（股票、气温等）
+  - 序列分类（情感分析）
+  - 序列到序列建模（机器翻译）
+  - 物理系统建模（分子动力学轨迹）
+
+**学习收获 | Learning Outcomes:**
+- 深入理解Transformer架构原理
+- 掌握注意力机制的数学基础和实现
+- 学会使用Transformer处理各类序列数据
+- 了解Transformer在科学计算中的应用
+
+**模型优势 | Model Advantages:**
+- ⚡ 并行化训练，速度快
+- 🎯 捕获长距离依赖关系
+- 📊 注意力权重可解释性强
+- 🚀 易于扩展到大规模模型
+
 ### 第二部分：前沿研究论文复现
 ### Part 2: Cutting-Edge Research Paper Reproduction
 
