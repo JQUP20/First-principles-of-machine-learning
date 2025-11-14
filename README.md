@@ -193,6 +193,60 @@ This course systematically introduces the fundamental theories and practical app
 
 ---
 
+### 第四部分：深度学习在第一性原理计算中的应用——神经网络势函数（三）
+### Part 4: Applications of Deep Learning in First-Principles - Neural Network Potentials (III)
+
+#### 1. 课程内容 | Course Content
+
+##### (1) 等变性的概念和重要性
+- 等变性与不变性的区别
+- 物理系统中的对称性——平移、旋转、反射
+- 群论基础——SO(3)和E(3)群
+- 不可约表示和球谐函数
+- 等变消息传递神经网络vs不变消息传递神经网络
+
+📖 [查看详细内容](./Part4-Equivariant-NNP/01-Theory/01-Equivariance.md)
+
+##### (2) 等变神经网络势函数模型
+- PaiNN——极化原子相互作用神经网络
+- PaiNN的标量特征和矢量特征
+- PaiNN的等变消息传递机制
+- NequIP——E(3)等变图神经网络
+- NequIP的不可约表示和张量积
+- Allegro——大规模并行计算优化
+- 等变模型的优势和数据效率
+
+📖 [查看详细内容](./Part4-Equivariant-NNP/01-Theory/02-Equivariant-Models.md)
+
+#### 2. 上机实验 | Practical Experiments
+
+##### (1) SchNet消息传递神经网络的安装和使用
+- QM9数据集的准备
+- 使用QM9数据集训练SchNet模型
+- 模型对体系能量和原子受力预测精度的评估
+- 将SchNet模型用于分子动力学模拟
+- 原子对径向分布函数等性质的计算
+
+📂 [完整教程](./Part4-Equivariant-NNP/02-Practice/01-SchNet-Practice/)
+
+##### (2) PaiNN等变消息传递神经网络的安装和使用
+- 原子标量特征与矢量特征
+- 等变消息传递过程
+- PaiNN模型对分子体系性质的预测
+- PaiNN与SchNet的效果比较
+
+📂 [完整教程](./Part4-Equivariant-NNP/02-Practice/02-PaiNN/)
+
+##### (3) NequIP等变神经网络势函数的安装和使用
+- NequIP的安装
+- NequIP配置文件的编写
+- NequIP训练过程的监控
+- NequIP在Nature Communications论文中的实例重复
+
+📂 [完整教程](./Part4-Equivariant-NNP/02-Practice/03-NequIP/)
+
+---
+
 ## 环境要求 | Environment Requirements
 
 ### 基础环境 | Basic Environment
