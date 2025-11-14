@@ -74,6 +74,24 @@ This course systematically introduces the fundamental theories and practical app
 
 📂 [教程](./Part1-Basics/02-Practice/05-GPAW-Calculations/) | 💻 [示例](./Part1-Basics/02-Practice/05-GPAW-Calculations/examples/)
 
+##### (6) 声子谱的计算
+- 使用Phonopy软件计算固体材料的声子谱
+- 使用深度学习势函数加速声子谱的计算
+- 比较模拟结果和第一性原理计算结果
+
+📂 [教程](./Part1-Basics/02-Practice/06-Phonon-Calculations/) | 💻 [示例](./Part1-Basics/02-Practice/06-Phonon-Calculations/examples/) | 📖 [理论文档](./Part1-Basics/02-Practice/06-Phonon-Calculations/tutorials/01_phonon_theory.md)
+
+**核心内容 | Core Content:**
+- 📊 **方法一**: Phonopy + DFT (GPAW) - 高精度但计算耗时
+- ⚡ **方法二**: Phonopy + ML势函数 (Allegro/NequIP) - 速度提升100-1000倍
+- 🔬 **对比分析**: 精度对比、性能对比、热力学性质对比
+
+**学习收获 | Learning Outcomes:**
+- 理解声子谱的物理意义和计算方法
+- 掌握Phonopy的使用和声子分析
+- 了解如何使用ML势函数加速材料计算
+- 学会评估和比较不同计算方法
+
 ### 第二部分：前沿研究论文复现
 ### Part 2: Cutting-Edge Research Paper Reproduction
 
