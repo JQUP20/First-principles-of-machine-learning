@@ -77,3 +77,6 @@ temp/
 *.zip
 *.bz2
 *.gz
+
+# Cloned repositories (users should clone themselves)
+allegro/
