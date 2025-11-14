@@ -137,6 +137,62 @@ This course systematically introduces the fundamental theories and practical app
 
 ---
 
+### 第三部分：深度学习在第一性原理计算中的应用——神经网络势函数（二）
+### Part 3: Applications of Deep Learning in First-Principles - Neural Network Potentials (II)
+
+#### 1. 课程内容 | Course Content
+
+##### (1) 分子动力学模拟
+- 第一性原理分子动力学——从微观到宏观
+- 分子动力学的基本原理——牛顿运动方程
+- 牛顿运动方程的几种数值求解方法
+- 统计力学系综概念
+- LAMMPS分子动力学软件介绍
+- 神经网络势函数和LAMMPS的结合——机器学习分子动力学模拟
+
+📖 [查看详细内容](./Part3-MD-and-GNN/01-Theory/01-Molecular-Dynamics.md)
+
+##### (2) 从描述符到图表示：图神经网络和MPNN消息传递神经网络
+- 具有不变性的消息传递神经网络
+- 晶体图卷积神经网络CGCNN
+- 消息传递神经网络的一般框架和组成
+
+📖 [查看详细内容](./Part3-MD-and-GNN/01-Theory/02-Graph-Neural-Networks.md)
+
+##### (3) SchNet和DimeNet++等不变消息传递神经网络的介绍
+- SchNet和DimeNet++的特点
+- DimeNet++中角度信息的引入——球谐基函数
+- 深入理解消息传递过程——图卷积
+- 图卷积和图像卷积的区别
+
+📖 [查看详细内容](./Part3-MD-and-GNN/01-Theory/03-SchNet-DimeNet.md)
+
+#### 2. 上机实验 | Practical Experiments
+
+##### (1) LAMMPS分子动力学软件
+- LAMMPS软件的输入设置
+- LAMMPS脚本编写的基本语法
+- LAMMPS软件任务运行与结果分析
+
+📂 [教程和示例](./Part3-MD-and-GNN/02-Practice/01-LAMMPS/)
+
+##### (2) DeePMD深势模型的安装和使用
+- DeePMD的离线安装与测试
+- DeePMD模型的训练和验证
+- 使用DeePMD模型进行高效的分子动力学模拟
+- 数据的处理和分析
+
+📂 [教程和示例](./Part3-MD-and-GNN/02-Practice/02-DeePMD/)
+
+##### (3) GNN图神经网络用于处理图结构数据——以SchNet为例
+- 晶体结构的图结构抽象和数据表示
+- 图神经网络的输入、特征处理与输出
+- 从预测能量到预测力——神经网络自动微分的妙用
+
+📂 [完整项目](./Part3-MD-and-GNN/02-Practice/03-SchNet-GNN/)
+
+---
+
 ## 环境要求 | Environment Requirements
 
 ### 基础环境 | Basic Environment
